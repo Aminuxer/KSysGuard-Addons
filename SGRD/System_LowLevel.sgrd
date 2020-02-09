@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE KSysGuardWorkSheet>
+<WorkSheet interval="0.5" rows="3" locked="0" columns="2" title="System(LowLevel)">
+ <host port="-1" command="ksysguardd" name="localhost" shell=""/>
+ <display vScroll="1" unit="" showUnit="0" svgBackground="" fontSize="8" vDistance="10" autoRange="1" version="1" stacked="0" row="0" manualRange="0" column="0" labels="1" vLines="1" rowSpan="1" hLines="1" class="FancyPlotter" title="Приоритеты CPU1" columnSpan="1" hScale="6">
+  <beam color="0xffff0000" sensorType="float" hostName="localhost" sensorName="cpu/cpu0/nice"/>
+  <beam color="0xffffff00" sensorType="float" hostName="localhost" sensorName="cpu/cpu0/sys"/>
+  <beam color="0xff000000" sensorType="float" hostName="localhost" sensorName="cpu/cpu0/TotalLoad"/>
+  <beam color="0xff008000" sensorType="float" hostName="localhost" sensorName="cpu/cpu0/wait"/>
+  <beam color="0xff0000c0" sensorType="float" hostName="localhost" sensorName="cpu/cpu0/idle"/>
+  <beam color="0xff800080" sensorType="float" hostName="localhost" sensorName="cpu/cpu0/user"/>
+ </display>
+ <display vScroll="1" unit="" showUnit="0" svgBackground="" fontSize="8" vDistance="10" autoRange="1" version="1" stacked="0" row="0" manualRange="0" column="1" labels="1" vLines="1" rowSpan="1" hLines="1" class="FancyPlotter" title="Приоритеты CPU2" columnSpan="1" hScale="6">
+  <beam color="0xffff0000" sensorType="float" hostName="localhost" sensorName="cpu/cpu1/nice"/>
+  <beam color="0xffffff00" sensorType="float" hostName="localhost" sensorName="cpu/cpu1/sys"/>
+  <beam color="0xff000000" sensorType="float" hostName="localhost" sensorName="cpu/cpu1/TotalLoad"/>
+  <beam color="0xff0000c0" sensorType="float" hostName="localhost" sensorName="cpu/cpu1/idle"/>
+  <beam color="0xff008000" sensorType="float" hostName="localhost" sensorName="cpu/cpu1/wait"/>
+  <beam color="0xff800080" sensorType="float" hostName="localhost" sensorName="cpu/cpu1/user"/>
+ </display>
+ <display vScroll="1" unit="" showUnit="0" svgBackground="" fontSize="8" vDistance="10" autoRange="1" version="1" stacked="0" row="1" manualRange="0" column="0" labels="1" vLines="1" rowSpan="1" hLines="1" class="FancyPlotter" title="Load Average" columnSpan="1" hScale="6">
+  <beam color="0xffc00000" sensorType="float" hostName="localhost" sensorName="cpu/system/loadavg1"/>
+  <beam color="0xffc0c000" sensorType="float" hostName="localhost" sensorName="cpu/system/loadavg5"/>
+  <beam color="0xff0000c0" sensorType="float" hostName="localhost" sensorName="cpu/system/loadavg15"/>
+ </display>
+ <display vScroll="1" unit="" showUnit="0" svgBackground="" fontSize="8" vDistance="10" autoRange="1" version="1" stacked="0" row="1" manualRange="0" column="1" labels="1" vLines="1" rowSpan="1" hLines="1" class="FancyPlotter" title="Прерывания/контекст" columnSpan="1" hScale="6">
+  <beam color="0xffc00000" sensorType="float" hostName="localhost" sensorName="cpu/interrupts/int00"/>
+  <beam color="0xff808000" sensorType="float" hostName="localhost" sensorName="cpu/context"/>
+ </display>
+ <display vScroll="1" unit="" showUnit="0" svgBackground="" fontSize="8" vDistance="10" autoRange="1" version="1" stacked="0" row="2" manualRange="0" column="0" labels="1" vLines="1" rowSpan="1" hLines="1" class="FancyPlotter" title="Страницы памяти" columnSpan="1" hScale="6">
+  <beam color="0xff808000" sensorType="float" hostName="localhost" sensorName="cpu/pageIn"/>
+  <beam color="0xff800080" sensorType="float" hostName="localhost" sensorName="cpu/pageOut"/>
+ </display>
+ <display column="1" unit="" sensorType="listview" row="2" showUnit="0" class="ListView" treeViewHeader="AAAA/wAAAAAAAAABAAAAAAAAAAEBAAAABgAAAAAAAAAFAAAAAwAAAAQAAAACAAAAAQAAAAYAAAAAAAAABQAAAAQAAAACAAAAAwAAAAEAAAAAAAAAAAAAAmgAAAAGAQEAAQAAAAAAAAAAAAAAAGf/////AAAAgQAAAAAAAAAGAAAAZwAAAAEAAAAAAAAAZQAAAAEAAAAAAAAAZwAAAAEAAAAAAAAAZwAAAAEAAAAAAAAAZwAAAAEAAAAAAAAAZwAAAAEAAAAAAAAD6AAAAABn" hostName="localhost" columnSpan="1" sensorName="partitions/list" rowSpan="1" units="1" title="Parts"/>
+</WorkSheet>

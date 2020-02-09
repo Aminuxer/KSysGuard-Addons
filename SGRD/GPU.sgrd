@@ -1,1 +1,38 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE KSysGuardWorkSheet>
+<WorkSheet interval="1" locked="0" columns="3" title="GPU" rows="4">
+ <host name="GPU-Local" shell="" command="perl /opt/nvmon.pl" port="-1"/>
+ <display class="FancyPlotter" stacked="0" row="0" hScale="6" vScroll="0" unit="" title="Температура GPU" rowSpan="1" fontSize="8" columnSpan="1" hLines="1" svgBackground="" showUnit="0" labels="1" column="0" vLines="1" version="1" manualRange="0" vDistance="30" autoRange="1">
+  <beam sensorType="integer" color="0xffff0000" hostName="GPU-Local" sensorName="gpu_temp"/>
+ </display>
+ <display class="FancyPlotter" stacked="0" row="0" hScale="6" vScroll="0" unit="" title="Использование Graphics" rowSpan="1" fontSize="8" columnSpan="1" hLines="1" svgBackground="" showUnit="0" labels="1" column="1" vLines="1" version="1" manualRange="0" vDistance="30" autoRange="1">
+  <beam sensorType="integer" color="0xffaa55ff" hostName="GPU-Local" sensorName="gpu_graphics"/>
+ </display>
+ <display class="FancyPlotter" stacked="0" row="1" hScale="6" vScroll="0" unit="" title="gpu_video_engine" rowSpan="1" fontSize="8" columnSpan="1" hLines="1" svgBackground="" showUnit="0" labels="1" column="1" vLines="1" version="1" manualRange="0" vDistance="30" autoRange="1">
+  <beam sensorType="integer" color="0xff000000" hostName="GPU-Local" sensorName="gpu_video_engine"/>
+ </display>
+ <display class="FancyPlotter" stacked="0" row="1" hScale="6" vScroll="0" unit="" title="Memory GPU %" rowSpan="1" fontSize="8" columnSpan="1" hLines="1" svgBackground="" showUnit="0" labels="1" column="0" vLines="1" version="1" manualRange="0" vDistance="30" autoRange="1">
+  <beam sensorType="integer" color="0xff55aa00" hostName="GPU-Local" sensorName="gpu_memory"/>
+ </display>
+ <display class="FancyPlotter" stacked="0" row="0" hScale="6" vScroll="0" unit="" title="GPU FAN" rowSpan="1" fontSize="8" columnSpan="1" hLines="1" svgBackground="" showUnit="0" labels="1" column="2" vLines="0" version="1" manualRange="0" vDistance="30" autoRange="1">
+  <beam sensorType="integer" color="0xff0057ae" hostName="GPU-Local" sensorName="gpu_fan_speed"/>
+ </display>
+ <display class="FancyPlotter" stacked="0" row="1" hScale="6" vScroll="0" unit="" title="gpu_core_usage" rowSpan="1" fontSize="8" columnSpan="1" hLines="1" svgBackground="" showUnit="0" labels="1" column="2" vLines="0" version="1" manualRange="0" vDistance="30" autoRange="1">
+  <beam sensorType="integer" color="0xff0057ae" hostName="GPU-Local" sensorName="gpu_core_usage"/>
+ </display>
+ <display class="FancyPlotter" stacked="0" row="2" hScale="6" vScroll="0" unit="" title="gpu_core_clock" rowSpan="1" fontSize="8" columnSpan="1" hLines="1" svgBackground="" showUnit="0" labels="1" column="0" vLines="0" version="1" manualRange="0" vDistance="30" autoRange="1">
+  <beam sensorType="integer" color="0xff0057ae" hostName="GPU-Local" sensorName="gpu_core_clock"/>
+ </display>
+ <display class="FancyPlotter" stacked="0" row="2" hScale="6" vScroll="0" unit="" title="gpu_mem_clock" rowSpan="1" fontSize="8" columnSpan="1" hLines="1" svgBackground="" showUnit="0" labels="1" column="1" vLines="0" version="1" manualRange="0" vDistance="30" autoRange="1">
+  <beam sensorType="integer" color="0xff0057ae" hostName="GPU-Local" sensorName="gpu_mem_clock"/>
+ </display>
+ <display class="FancyPlotter" stacked="0" row="2" hScale="6" vScroll="0" unit="" title="gpu_mem_mib" rowSpan="1" fontSize="8" columnSpan="1" hLines="1" svgBackground="" showUnit="0" labels="1" column="2" vLines="0" version="1" manualRange="0" vDistance="30" autoRange="1">
+  <beam sensorType="integer" color="0xff0057ae" hostName="GPU-Local" sensorName="gpu_mem_mib"/>
+ </display>
+ <display class="FancyPlotter" stacked="0" row="3" hScale="6" vScroll="0" unit="" title="gpu_video_decode" rowSpan="1" fontSize="8" columnSpan="1" hLines="1" svgBackground="" showUnit="0" labels="1" column="0" vLines="0" version="1" manualRange="0" vDistance="30" autoRange="1">
+  <beam sensorType="integer" color="0xff0057ae" hostName="GPU-Local" sensorName="gpu_video_decode"/>
+ </display>
+ <display class="FancyPlotter" stacked="0" row="3" hScale="6" vScroll="0" unit="" title="gpu_video_encode" rowSpan="1" fontSize="8" columnSpan="1" hLines="1" svgBackground="" showUnit="0" labels="1" column="1" vLines="0" version="1" manualRange="0" vDistance="30" autoRange="1">
+  <beam sensorType="integer" color="0xff0057ae" hostName="GPU-Local" sensorName="gpu_video_encode"/>
+ </display>
+</WorkSheet>

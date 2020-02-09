@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE KSysGuardWorkSheet>
+<WorkSheet columns="2" title="UPS" interval="0.5" rows="2" locked="0">
+ <host command="perl /opt/upsmon.pl" shell="" name="UPS-Local" port="-1"/>
+ <display unit="" vScroll="0" rowSpan="1" hLines="1" vLines="1" labels="1" stacked="0" autoRange="1" columnSpan="1" column="0" svgBackground="" row="0" hScale="6" showUnit="0" class="FancyPlotter" version="1" manualRange="0" title="Ippon 3000 :: Температура ИБП" vDistance="10" fontSize="8">
+  <beam color="0xffff0000" sensorName="ups_temp" hostName="UPS-Local" sensorType="integer"/>
+ </display>
+ <display unit="" vScroll="0" rowSpan="1" hLines="1" vLines="1" labels="1" stacked="0" autoRange="1" columnSpan="1" column="1" svgBackground="" row="0" hScale="6" showUnit="0" class="FancyPlotter" version="1" manualRange="0" title="Заряд и нагрузка" vDistance="10" fontSize="8">
+  <beam color="0xffff0000" sensorName="ups_load" hostName="UPS-Local" sensorType="integer"/>
+  <beam color="0xff005500" sensorName="battery_charge" hostName="UPS-Local" sensorType="integer"/>
+ </display>
+ <display unit="" vScroll="0" rowSpan="1" hLines="1" vLines="1" labels="1" stacked="0" autoRange="1" columnSpan="1" column="0" svgBackground="" row="1" hScale="6" showUnit="0" class="FancyPlotter" version="1" manualRange="0" title="Частота сети" vDistance="10" fontSize="8">
+  <beam color="0xff0057ae" sensorName="input_frequency" hostName="UPS-Local" sensorType="integer"/>
+ </display>
+ <display unit="" vScroll="0" rowSpan="1" hLines="1" vLines="1" labels="1" stacked="0" autoRange="1" columnSpan="1" column="1" svgBackground="" row="1" hScale="6" showUnit="0" class="FancyPlotter" version="1" manualRange="0" title="V (In, Out, Battery)" vDistance="10" fontSize="8">
+  <beam color="0xff005500" sensorName="input_voltage" hostName="UPS-Local" sensorType="integer"/>
+  <beam color="0xffff0000" sensorName="output_voltage" hostName="UPS-Local" sensorType="integer"/>
+  <beam color="0xff000000" sensorName="battery_voltage" hostName="UPS-Local" sensorType="integer"/>
+ </display>
+</WorkSheet>

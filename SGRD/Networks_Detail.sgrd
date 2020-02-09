@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE KSysGuardWorkSheet>
+<WorkSheet interval="0.5" rows="3" locked="0" columns="2" title="Сеть (детально)">
+ <host port="-1" command="ksysguardd" name="localhost" shell=""/>
+ <display vScroll="1" unit="" showUnit="0" svgBackground="" fontSize="8" vDistance="20" autoRange="1" version="1" stacked="0" row="0" manualRange="0" column="0" labels="1" vLines="1" rowSpan="1" hLines="1" class="FancyPlotter" title="enp0s1 (Data Rate)" columnSpan="1" hScale="6">
+  <beam color="0xff0057ae" sensorType="float" hostName="localhost" sensorName="network/interfaces/enp0s1/receiver/data"/>
+  <beam color="0xffe20800" sensorType="float" hostName="localhost" sensorName="network/interfaces/enp0s1/transmitter/data"/>
+ </display>
+ <display vScroll="1" unit="" showUnit="0" svgBackground="" fontSize="8" vDistance="20" autoRange="1" version="1" stacked="0" row="0" manualRange="0" column="1" labels="1" vLines="1" rowSpan="1" hLines="1" class="FancyPlotter" title="enp0s1 (Packet Rate)" columnSpan="1" hScale="6">
+  <beam color="0xffff0000" sensorType="float" hostName="localhost" sensorName="network/interfaces/enp0s1/transmitter/packets"/>
+  <beam color="0xff0000ff" sensorType="float" hostName="localhost" sensorName="network/interfaces/enp0s1/receiver/packets"/>
+ </display>
+ <display vScroll="1" unit="" showUnit="0" svgBackground="" fontSize="8" vDistance="10" autoRange="1" version="1" stacked="0" row="1" manualRange="0" column="0" labels="1" vLines="1" rowSpan="1" hLines="1" class="FancyPlotter" title="Сокеты (TCP, UDP, UNIX, RAW)" columnSpan="1" hScale="6">
+  <beam color="0xff000000" sensorType="integer" hostName="localhost" sensorName="network/sockets/unix/count"/>
+  <beam color="0xffe20800" sensorType="integer" hostName="localhost" sensorName="network/sockets/raw/count"/>
+  <beam color="0xff16ad06" sensorType="integer" hostName="localhost" sensorName="network/sockets/tcp/count"/>
+  <beam color="0xff0a0aff" sensorType="integer" hostName="localhost" sensorName="network/sockets/udp/count"/>
+ </display>
+ <display vScroll="1" unit="" showUnit="0" svgBackground="" fontSize="8" vDistance="20" autoRange="1" version="1" stacked="0" row="1" manualRange="0" column="1" labels="1" vLines="1" rowSpan="1" hLines="1" class="FancyPlotter" title="lo" columnSpan="1" hScale="6">
+  <beam color="0xffff0000" sensorType="float" hostName="localhost" sensorName="network/interfaces/lo/transmitter/packets"/>
+  <beam color="0xff0000ff" sensorType="float" hostName="localhost" sensorName="network/interfaces/lo/receiver/packets"/>
+ </display>
+ <display vScroll="1" unit="" showUnit="0" svgBackground="" fontSize="8" vDistance="10" autoRange="1" version="1" stacked="0" row="2" manualRange="0" column="0" labels="1" vLines="1" rowSpan="1" hLines="1" class="FancyPlotter" title="Отброшенные пакеты" columnSpan="1" hScale="6">
+  <beam color="0xffff0000" sensorType="float" hostName="localhost" sensorName="network/interfaces/enp0s1/transmitter/dropsTotal"/>
+  <beam color="0xff0028a9" sensorType="float" hostName="localhost" sensorName="network/interfaces/enp0s1/receiver/dropsTotal"/>
+ </display>
+ <display vScroll="1" unit="" showUnit="0" svgBackground="" fontSize="8" vDistance="10" autoRange="1" version="1" stacked="0" row="2" manualRange="0" column="1" labels="1" vLines="1" rowSpan="1" hLines="1" class="FancyPlotter" title="Errors" columnSpan="1" hScale="6">
+  <beam color="0xff0055ff" sensorType="float" hostName="localhost" sensorName="network/interfaces/enp0s1/receiver/errorsTotal"/>
+  <beam color="0xffff0000" sensorType="float" hostName="localhost" sensorName="network/interfaces/enp0s1/transmitter/errorsTotal"/>
+ </display>
+</WorkSheet>

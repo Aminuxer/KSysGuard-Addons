@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE KSysGuardWorkSheet>
+<WorkSheet interval="0.5" rows="4" locked="0" columns="1" title="Temp/RPM/V">
+ <host port="-1" command="ksysguardd" name="localhost" shell=""/>
+ <display vScroll="0" unit="" showUnit="0" svgBackground="" fontSize="8" vDistance="15" autoRange="1" version="1" stacked="0" row="0" manualRange="0" column="0" labels="1" vLines="1" rowSpan="1" hLines="1" class="FancyPlotter" title="Температура CPU/MB" columnSpan="1" hScale="6">
+  <beam color="0xfff3c300" sensorType="float" hostName="localhost" sensorName="lmsensors/coretemp-isa-0000/Core_0"/>
+  <beam color="0xffff0000" sensorType="float" hostName="localhost" sensorName="lmsensors/coretemp-isa-0000/Core_1"/>
+  <beam color="0xfff3c300" sensorType="integer" hostName="localhost" sensorName="acpi/Thermal_Zone/1-acpitz/Temperature"/>
+  <beam color="0xffff0000" sensorType="integer" hostName="localhost" sensorName="acpi/Thermal_Zone/2-x86_pkg_temp/Temperature"/>
+  <beam color="0xff00a900" sensorType="integer" hostName="localhost" sensorName="acpi/Thermal_Zone/0-acpitz/Temperature"/>
+  <beam color="0xff0028a9" sensorType="float" hostName="localhost" sensorName="lmsensors/coretemp-isa-0000/Package_id_0"/>
+  <beam color="0xff297da9" sensorType="float" hostName="localhost" sensorName="lmsensors/coretemp-isa-0000/Core_2"/>
+  <beam color="0xffa9bd7d" sensorType="float" hostName="localhost" sensorName="lmsensors/coretemp-isa-0000/Core_3"/>
+  <beam color="0xff297da9" sensorType="float" hostName="localhost" sensorName="lmsensors/nct6793-isa-0290/SYSTIN"/>
+  <beam color="0xffa9bd7d" sensorType="float" hostName="localhost" sensorName="lmsensors/nct6793-isa-0290/CPUTIN"/>
+  <beam color="0xff7dbdbd" sensorType="float" hostName="localhost" sensorName="lmsensors/nct6793-isa-0290/AUXTIN0"/>
+  <beam color="0xffbdfdbd" sensorType="float" hostName="localhost" sensorName="lmsensors/nct6793-isa-0290/AUXTIN1"/>
+  <beam color="0xffbde7fd" sensorType="float" hostName="localhost" sensorName="lmsensors/nct6793-isa-0290/AUXTIN2"/>
+  <beam color="0xfffd87e7" sensorType="float" hostName="localhost" sensorName="lmsensors/nct6793-isa-0290/AUXTIN3"/>
+  <beam color="0xffe78787" sensorType="float" hostName="localhost" sensorName="lmsensors/nct6793-isa-0290/PECI_Agent_0"/>
+  <beam color="0xff87a787" sensorType="float" hostName="localhost" sensorName="lmsensors/nct6793-isa-0290/PECI_Agent_0_Calibration"/>
+  <beam color="0xff879ca7" sensorType="integer" hostName="localhost" sensorName="acpi/Thermal_Zone/2-x86_pkg_temp/Temperature"/>
+ </display>
+ <display vScroll="0" unit="" showUnit="0" svgBackground="" fontSize="8" vDistance="15" autoRange="1" version="1" stacked="0" row="1" manualRange="0" column="0" labels="1" vLines="1" rowSpan="1" hLines="1" class="FancyPlotter" title="V (CPU, +3.3, +5, +12)" columnSpan="1" hScale="6">
+  <beam color="0xff0057ae" sensorType="float" hostName="localhost" sensorName="lmsensors/nct6793-isa-0290/in2"/>
+  <beam color="0xffe20800" sensorType="float" hostName="localhost" sensorName="lmsensors/nct6793-isa-0290/in3"/>
+  <beam color="0xfff3c300" sensorType="float" hostName="localhost" sensorName="lmsensors/nct6793-isa-0290/in4"/>
+  <beam color="0xffab8f3b" sensorType="float" hostName="localhost" sensorName="lmsensors/nct6793-isa-0290/in7"/>
+  <beam color="0xff00a900" sensorType="float" hostName="localhost" sensorName="lmsensors/nct6793-isa-0290/in8"/>
+  <beam color="0xffaa55ff" sensorType="float" hostName="localhost" sensorName="lmsensors/nct6793-isa-0290/in12"/>
+  <beam color="0xffa92928" sensorType="float" hostName="localhost" sensorName="lmsensors/nct6793-isa-0290/in14"/>
+ </display>
+ <display vScroll="0" unit="" showUnit="0" svgBackground="" fontSize="8" vDistance="15" autoRange="1" version="1" stacked="0" row="2" manualRange="0" column="0" labels="1" vLines="1" rowSpan="1" hLines="1" class="FancyPlotter" title="Кулеры (RPM)" columnSpan="1" hScale="6">
+  <beam color="0xff0057ae" sensorType="float" hostName="localhost" sensorName="lmsensors/nct6793-isa-0290/fan1"/>
+  <beam color="0xffe20800" sensorType="float" hostName="localhost" sensorName="lmsensors/nct6793-isa-0290/fan2"/>
+  <beam color="0xfff3c300" sensorType="float" hostName="localhost" sensorName="lmsensors/nct6793-isa-0290/fan3"/>
+  <beam color="0xff00a900" sensorType="float" hostName="localhost" sensorName="lmsensors/nct6793-isa-0290/fan5"/>
+ </display>
+ <display vScroll="0" unit="" showUnit="0" svgBackground="" fontSize="8" vDistance="15" autoRange="1" version="1" stacked="0" row="3" manualRange="0" column="0" labels="1" vLines="1" rowSpan="1" hLines="1" class="FancyPlotter" title="Частота CPU" columnSpan="1" hScale="6">
+  <beam color="0xffff8000" sensorType="float" hostName="localhost" sensorName="cpu/cpu0/clock"/>
+  <beam color="0xff008000" sensorType="float" hostName="localhost" sensorName="cpu/system/AverageClock"/>
+  <beam color="0xffff0000" sensorType="float" hostName="localhost" sensorName="cpu/cpu1/clock"/>
+ </display>
+</WorkSheet>

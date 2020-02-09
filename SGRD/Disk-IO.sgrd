@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE KSysGuardWorkSheet>
+<WorkSheet title="Disk IO" columns="2" rows="4" locked="0" interval="0.5">
+ <host name="localhost" shell="" port="-1" command="ksysguardd"/>
+ <display hLines="1" svgBackground="" unit="" showUnit="0" title="SDF (/ , /opt)" rowSpan="1" hScale="6" version="1" fontSize="8" labels="1" row="0" stacked="0" class="FancyPlotter" manualRange="0" column="1" vLines="1" autoRange="1" vDistance="10" columnSpan="1" vScroll="1">
+  <beam hostName="localhost" sensorName="disk/sdf_(8:80)/Rate/rblk" color="0xff0057ae" sensorType="float"/>
+  <beam hostName="localhost" sensorName="disk/sdf_(8:80)/Rate/wblk" color="0xffe20800" sensorType="float"/>
+  <beam hostName="localhost" sensorName="disk/sdf_(8:80)/ioqueue" color="0xff005500" sensorType="integer"/>
+  <beam hostName="localhost" sensorName="disk/sdf_(8:80)/Delta/totalio" color="0xff550000" sensorType="integer"/>
+ </display>
+ <display hLines="1" svgBackground="" unit="" showUnit="0" title="SDH (Backups-2)" rowSpan="1" hScale="6" version="1" fontSize="8" labels="1" row="1" stacked="0" class="FancyPlotter" manualRange="0" column="0" vLines="1" autoRange="1" vDistance="10" columnSpan="1" vScroll="1">
+  <beam hostName="localhost" sensorName="disk/sdh_(8:112)/Rate/rblk" color="0xff0057ae" sensorType="float"/>
+  <beam hostName="localhost" sensorName="disk/sdh_(8:112)/Rate/wblk" color="0xffe20800" sensorType="float"/>
+ </display>
+ <display hLines="1" svgBackground="" unit="" showUnit="0" title="NVMe0 [/home]" rowSpan="1" hScale="6" version="1" fontSize="8" labels="1" row="1" stacked="0" class="FancyPlotter" manualRange="0" column="1" vLines="1" autoRange="1" vDistance="10" columnSpan="1" vScroll="1">
+  <beam hostName="localhost" sensorName="disk/nvme0n1_(259:0)/ioqueue" color="0xff005500" sensorType="integer"/>
+  <beam hostName="localhost" sensorName="disk/nvme0n1_(259:0)/Delta/totalio" color="0xff550000" sensorType="integer"/>
+  <beam hostName="localhost" sensorName="disk/nvme0n1_(259:0)/Rate/rblk" color="0xff0000ff" sensorType="float"/>
+  <beam hostName="localhost" sensorName="disk/nvme0n1_(259:0)/Rate/wblk" color="0xffff0000" sensorType="float"/>
+ </display>
+ <display hLines="1" svgBackground="" unit="" showUnit="0" title="loop0, loop1" rowSpan="1" hScale="6" version="1" fontSize="8" labels="1" row="2" stacked="0" class="FancyPlotter" manualRange="0" column="0" vLines="1" autoRange="1" vDistance="10" columnSpan="1" vScroll="0">
+  <beam hostName="localhost" sensorName="disk/loop0_(7:0)/Rate/rio" color="0xff0000ff" sensorType="float"/>
+  <beam hostName="localhost" sensorName="disk/loop0_(7:0)/Rate/wio" color="0xffff0000" sensorType="float"/>
+  <beam hostName="localhost" sensorName="disk/loop0_(7:0)/ioqueue" color="0xff005500" sensorType="integer"/>
+  <beam hostName="localhost" sensorName="disk/loop1_(7:1)/Rate/rio" color="0xff00aaff" sensorType="float"/>
+  <beam hostName="localhost" sensorName="disk/loop1_(7:1)/Rate/wio" color="0xffff557f" sensorType="float"/>
+  <beam hostName="localhost" sensorName="disk/loop1_(7:1)/ioqueue" color="0xff55ff7f" sensorType="integer"/>
+ </display>
+ <display hLines="1" svgBackground="" unit="" showUnit="0" title="SDG []" rowSpan="1" hScale="6" version="1" fontSize="8" labels="1" row="2" stacked="0" class="FancyPlotter" manualRange="0" column="1" vLines="1" autoRange="1" vDistance="10" columnSpan="1" vScroll="1">
+  <beam hostName="localhost" sensorName="disk/sdg_(8:96)/Rate/rblk" color="0xff0057ae" sensorType="float"/>
+  <beam hostName="localhost" sensorName="disk/sdg_(8:96)/Rate/wblk" color="0xffe20800" sensorType="float"/>
+  <beam hostName="localhost" sensorName="disk/sdg_(8:96)/ioqueue" color="0xff005500" sensorType="integer"/>
+  <beam hostName="localhost" sensorName="disk/sdg_(8:96)/Delta/totalio" color="0xff550000" sensorType="integer"/>
+ </display>
+ <display hLines="1" svgBackground="" unit="" showUnit="0" title="RAID MD127" rowSpan="1" hScale="6" version="1" fontSize="8" labels="1" row="3" stacked="0" class="FancyPlotter" manualRange="0" column="1" vLines="1" autoRange="1" vDistance="10" columnSpan="1" vScroll="0">
+  <beam hostName="localhost" sensorName="disk/md127_(9:127)/Rate/rblk" color="0xff0000ff" sensorType="float"/>
+  <beam hostName="localhost" sensorName="disk/md127_(9:127)/Rate/wblk" color="0xffe20800" sensorType="float"/>
+  <beam hostName="localhost" sensorName="disk/md127_(9:127)/ioqueue" color="0xff005500" sensorType="integer"/>
+ </display>
+ <display hLines="1" svgBackground="" unit="" showUnit="0" title="RAID MD127 Details" rowSpan="1" hScale="6" version="1" fontSize="8" labels="1" row="3" stacked="0" class="FancyPlotter" manualRange="0" column="0" vLines="1" autoRange="1" vDistance="10" columnSpan="1" vScroll="0">
+  <beam hostName="localhost" sensorName="disk/md127_(9:127)/Delta/rtim" color="0xff0057ae" sensorType="integer"/>
+  <beam hostName="localhost" sensorName="disk/md127_(9:127)/Delta/wtim" color="0xffe20800" sensorType="integer"/>
+  <beam hostName="localhost" sensorName="disk/md127_(9:127)/ioqueue" color="0xff005500" sensorType="integer"/>
+  <beam hostName="localhost" sensorName="disk/md127_(9:127)/Delta/totalio" color="0xff550000" sensorType="integer"/>
+  <beam hostName="localhost" sensorName="disk/md127_(9:127)/Delta/rio" color="0xff55ffff" sensorType="integer"/>
+  <beam hostName="localhost" sensorName="disk/md127_(9:127)/Delta/wio" color="0xffffaaff" sensorType="integer"/>
+ </display>
+ <display hLines="1" svgBackground="" unit="" showUnit="0" title="SDE (Backups-1)" rowSpan="1" hScale="6" version="1" fontSize="8" labels="1" row="0" stacked="0" class="FancyPlotter" manualRange="0" column="0" vLines="1" autoRange="1" vDistance="10" columnSpan="1" vScroll="0">
+  <beam hostName="localhost" sensorName="disk/sde_(8:64)/Rate/rblk" color="0xff0057ae" sensorType="float"/>
+  <beam hostName="localhost" sensorName="disk/sde_(8:64)/Rate/wblk" color="0xffe20800" sensorType="float"/>
+  <beam hostName="localhost" sensorName="disk/sde_(8:64)/Rate/totalio" color="0xff550000" sensorType="float"/>
+  <beam hostName="localhost" sensorName="disk/sde_(8:64)/ioqueue" color="0xff005500" sensorType="integer"/>
+ </display>
+</WorkSheet>

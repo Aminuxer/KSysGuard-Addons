@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE KSysGuardWorkSheet>
+<WorkSheet title="DGS-1100-10ME" rows="8" locked="0" interval="0.5" columns="2">
+ <host port="-1" name="DGS-1100-10ME" shell="" command="perl /opt/dgs1100-mon.pl"/>
+ <display hLines="1" unit="" row="0" version="1" title="port-1-in-data-" vDistance="30" class="FancyPlotter" rowSpan="1" fontSize="8" stacked="0" autoRange="1" labels="1" showUnit="0" hScale="6" columnSpan="1" column="0" vScroll="0" manualRange="0" vLines="0" svgBackground="">
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-1-in-data-" color="0xff0057ae"/>
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-1-out-data-" color="0xffe20800"/>
+ </display>
+ <display hLines="1" unit="" row="0" version="1" title="port-1-in-err-" vDistance="30" class="FancyPlotter" rowSpan="1" fontSize="8" stacked="0" autoRange="1" labels="1" showUnit="0" hScale="6" columnSpan="1" column="1" vScroll="0" manualRange="0" vLines="0" svgBackground="">
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-1-in-err-" color="0xff0057ae"/>
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-1-out-err-" color="0xffe20800"/>
+ </display>
+ <display hLines="1" unit="" row="1" version="1" title="port-2-in-data-" vDistance="30" class="FancyPlotter" rowSpan="1" fontSize="8" stacked="0" autoRange="1" labels="1" showUnit="0" hScale="6" columnSpan="1" column="0" vScroll="0" manualRange="0" vLines="0" svgBackground="">
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-2-in-data-" color="0xff0057ae"/>
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-2-out-data-" color="0xffe20800"/>
+ </display>
+ <display hLines="1" unit="" row="1" version="1" title="port-2-in-err-" vDistance="30" class="FancyPlotter" rowSpan="1" fontSize="8" stacked="0" autoRange="1" labels="1" showUnit="0" hScale="6" columnSpan="1" column="1" vScroll="0" manualRange="0" vLines="0" svgBackground="">
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-2-in-err-" color="0xff0057ae"/>
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-2-out-err-" color="0xffe20800"/>
+ </display>
+ <display hLines="1" unit="" row="2" version="1" title="port-3-in-data-" vDistance="30" class="FancyPlotter" rowSpan="1" fontSize="8" stacked="0" autoRange="1" labels="1" showUnit="0" hScale="6" columnSpan="1" column="0" vScroll="0" manualRange="0" vLines="0" svgBackground="">
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-3-in-data-" color="0xff0057ae"/>
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-3-out-data-" color="0xffe20800"/>
+ </display>
+ <display hLines="1" unit="" row="2" version="1" title="port-3-in-err-" vDistance="30" class="FancyPlotter" rowSpan="1" fontSize="8" stacked="0" autoRange="1" labels="1" showUnit="0" hScale="6" columnSpan="1" column="1" vScroll="0" manualRange="0" vLines="0" svgBackground="">
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-3-in-err-" color="0xff0057ae"/>
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-3-out-err-" color="0xffe20800"/>
+ </display>
+ <display hLines="1" unit="" row="3" version="1" title="port-4-in-data-" vDistance="30" class="FancyPlotter" rowSpan="1" fontSize="8" stacked="0" autoRange="1" labels="1" showUnit="0" hScale="6" columnSpan="1" column="0" vScroll="0" manualRange="0" vLines="0" svgBackground="">
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-4-in-data-" color="0xff0057ae"/>
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-4-out-data-" color="0xffe20800"/>
+ </display>
+ <display hLines="1" unit="" row="3" version="1" title="port-4-in-err-" vDistance="30" class="FancyPlotter" rowSpan="1" fontSize="8" stacked="0" autoRange="1" labels="1" showUnit="0" hScale="6" columnSpan="1" column="1" vScroll="0" manualRange="0" vLines="0" svgBackground="">
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-4-in-err-" color="0xff0057ae"/>
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-4-out-err-" color="0xffe20800"/>
+ </display>
+ <display hLines="1" unit="" row="4" version="1" title="port-5-in-data-" vDistance="30" class="FancyPlotter" rowSpan="1" fontSize="8" stacked="0" autoRange="1" labels="1" showUnit="0" hScale="6" columnSpan="1" column="0" vScroll="0" manualRange="0" vLines="0" svgBackground="">
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-5-in-data-" color="0xff0057ae"/>
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-5-out-data-" color="0xffe20800"/>
+ </display>
+ <display hLines="1" unit="" row="4" version="1" title="port-5-in-err-" vDistance="30" class="FancyPlotter" rowSpan="1" fontSize="8" stacked="0" autoRange="1" labels="1" showUnit="0" hScale="6" columnSpan="1" column="1" vScroll="0" manualRange="0" vLines="0" svgBackground="">
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-5-in-err-" color="0xff0057ae"/>
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-5-out-err-" color="0xffe20800"/>
+ </display>
+ <display hLines="1" unit="" row="5" version="1" title="port-6-in-data-" vDistance="30" class="FancyPlotter" rowSpan="1" fontSize="8" stacked="0" autoRange="1" labels="1" showUnit="0" hScale="6" columnSpan="1" column="0" vScroll="0" manualRange="0" vLines="0" svgBackground="">
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-6-in-data-" color="0xff0057ae"/>
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-6-out-data-" color="0xffe20800"/>
+ </display>
+ <display hLines="1" unit="" row="5" version="1" title="port-6-in-err-" vDistance="30" class="FancyPlotter" rowSpan="1" fontSize="8" stacked="0" autoRange="1" labels="1" showUnit="0" hScale="6" columnSpan="1" column="1" vScroll="0" manualRange="0" vLines="0" svgBackground="">
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-6-in-err-" color="0xff0057ae"/>
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-6-out-err-" color="0xffe20800"/>
+ </display>
+ <display hLines="1" unit="" row="6" version="1" title="port-7-in-data-" vDistance="30" class="FancyPlotter" rowSpan="1" fontSize="8" stacked="0" autoRange="1" labels="1" showUnit="0" hScale="6" columnSpan="1" column="0" vScroll="0" manualRange="0" vLines="0" svgBackground="">
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-7-in-data-" color="0xff0057ae"/>
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-7-out-data-" color="0xffe20800"/>
+ </display>
+ <display hLines="1" unit="" row="6" version="1" title="port-7-in-err-" vDistance="30" class="FancyPlotter" rowSpan="1" fontSize="8" stacked="0" autoRange="1" labels="1" showUnit="0" hScale="6" columnSpan="1" column="1" vScroll="0" manualRange="0" vLines="0" svgBackground="">
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-7-in-err-" color="0xff0057ae"/>
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-7-out-err-" color="0xffe20800"/>
+ </display>
+ <display hLines="1" unit="" row="7" version="1" title="port-8-in-data-" vDistance="30" class="FancyPlotter" rowSpan="1" fontSize="8" stacked="0" autoRange="1" labels="1" showUnit="0" hScale="6" columnSpan="1" column="0" vScroll="0" manualRange="0" vLines="0" svgBackground="">
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-8-in-data-" color="0xff0057ae"/>
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-8-out-data-" color="0xffe20800"/>
+ </display>
+ <display hLines="1" unit="" row="7" version="1" title="port-8-in-err-" vDistance="30" class="FancyPlotter" rowSpan="1" fontSize="8" stacked="0" autoRange="1" labels="1" showUnit="0" hScale="6" columnSpan="1" column="1" vScroll="0" manualRange="0" vLines="0" svgBackground="">
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-8-in-err-" color="0xff0057ae"/>
+  <beam hostName="DGS-1100-10ME" sensorType="integer" sensorName="port-8-out-err-" color="0xffe20800"/>
+ </display>
+</WorkSheet>

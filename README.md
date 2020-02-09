@@ -1,5 +1,5 @@
 # KSysGuard-Addons
-Some tweaks amd scripts for KSysGuard - Local monitoring application for KDE
+Some tweaks and scripts for KSysGuard - Local monitoring application for KDE
 
 Some code for add monitoring UPS, GPU and SNMP-Switches in KSysGuard.
 
@@ -64,8 +64,9 @@ This script collect only Input/Output Octets and Errors counters from selected s
     If your dont't need long-term history and simple view current state - use ksysguard locally.
 
 * What about AMD GPU ?
-  - You can make pull requests with script.
+  - I don't have AMD GPU and don't know how monitor this. You can make pull requests with script.
 
-* What abount another SGRD-files ?
-  - It 's templates for comfortable monitoring of some aspects - HDD, Network, System and Hardware-sensors.
-  I use this on my linux desktops.
+* What about another SGRD-files ?
+  - It's templates for comfortable monitoring of some aspects - HDD, Network, System and Hardware-sensors.
+  I use this on my linux desktops. Before import your can edit sgrd-file for change disks / interfaces names
+  by find-and-replace function in text-editor / sed / awk / other.

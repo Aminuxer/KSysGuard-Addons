@@ -29,7 +29,7 @@ Add tab from SGRD/GPU.sgrd template or create customized panels
 
 # Add Local UPS to KSysGuard
 
-At first your must install and configure nut (Network UPS Tools). For monitoring need only working `upcs` tool.
+At first your must install and configure nut (Network UPS Tools). For monitoring need only working `upsc` tool.
 Use `upcs -l` for show UPS name ( ex. ippon3000) and `upsc ippon3000` for check UPD data.
 Use nut manuals for configure.
 

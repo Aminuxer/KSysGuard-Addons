@@ -71,4 +71,4 @@ This script collect only Input/Output Octets and Errors counters from selected s
   I use this on my linux desktops. Before import your can edit sgrd-file for change disks / interfaces names
   by find-and-replace function in text-editor / sed / awk / other.
 
-https://user-images.githubusercontent.com/13812192/74110497-fff16d80-4b84-11ea-8b50-07e17448b464.png
+<img src="https://user-images.githubusercontent.com/13812192/74110497-fff16d80-4b84-11ea-8b50-07e17448b464.png">

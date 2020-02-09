@@ -13,4 +13,6 @@ Download scripts to some path, ex in /opt
 * In command field type "perl /opt/ups.pl"
 * Edit script - write your options like IP / UPS name / other
 * Use sgrd-template for create grapth tab or create this manually.
+  If template has another interface name - your can easy change it,
+  sgrd files is trivial XML.
 

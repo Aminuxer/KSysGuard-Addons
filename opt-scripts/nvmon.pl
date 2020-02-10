@@ -11,6 +11,8 @@
 # 3.3 set `Command` like `path/to/this-sensor.pl`
 # 4. click `OK`, now you can find new sensor named `gpu_temp`
 #    which is provides GPU temperature
+# combined from https://gist.github.com/frantic1048/41f56fd6328fa83ce6ad5acb3a4c0336
+#             + https://gist.github.com/Sporif/4ce63f7b6eea691bdbb18905a9589169
 
 # See Also
 # https://techbase.kde.org/Development/Tutorials/Sensors

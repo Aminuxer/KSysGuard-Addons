@@ -72,3 +72,5 @@ This script collect only Input/Output Octets and Errors counters from selected s
   by find-and-replace function in text-editor / sed / awk / other.
 
 <img src="https://user-images.githubusercontent.com/13812192/74110497-fff16d80-4b84-11ea-8b50-07e17448b464.png">
+
+More info: https://aminux.wordpress.com/2020/02/10/ksysguard-add-gpu-ups-switch-snmp/

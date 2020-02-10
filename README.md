@@ -19,7 +19,7 @@ Download required opt-scripts to some path, ex. in /opt
   sgrd-files is trivial XML.
 
 
-# Add NVidia GPU monitoring to KSysGuard
+# Add NVidia GPU monitoring in KSysGuard
 
 Your system need tools `nvidia-smi` and `nvidia-settings` - this included in proprietary nvidia driver package.
 Script monitoring only one (first) GPU (i suggest home / ofiice usage) - for mining farm use server-based systems, ex. zabbix.
@@ -27,7 +27,7 @@ Make steps from # Installation, use `/opt/nvmon.pl`
 Add tab from SGRD/GPU.sgrd template or create customized panels
 
 
-# Add Local UPS to KSysGuard
+# Add Local UPS in KSysGuard
 
 At first your must install and configure nut (Network UPS Tools). For monitoring need only working `upsc` tool.
 Use `upsc -l` for show UPS name ( ex. ippon3000) and `upsc ippon3000` for check UPD data.
@@ -38,7 +38,7 @@ By default script monitoring only one, first UPS. In need another - modify scrip
 Add tab from SGRD/UPS.sgrd template or create customized panels
 
 
-# Add Management Switch to KSysGuard with SNMP
+# Add Management Switch in KSysGuard over SNMP
 
 SNMP is too big and have lots of sensors and data. But your can watch some values in local desktop system.
 Also this example can be useful for monitoring of some home/SMB/IoT devices like NetPing, switches, routers etc.

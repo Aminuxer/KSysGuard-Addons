@@ -10,7 +10,7 @@ Some code for add monitoring UPS, GPU and SNMP-Switches in KSysGuard.
 Download required opt-scripts to some path, ex. in /opt
 * Run ksysguard, create new tab, swith to this and call menu File - Monitoring remote host
 * Type as computer name any string, ex. "My UPS", use connection type = "another command"
-* In command field type `perl /opt/$scpipt_name.pl`
+* In command field type `perl /opt/$script_name.pl`
 * !! Add at least one data sensor from added script to new tab.
   In other case ksysguard remove unused sources from right sensors panel !!
 * Some scripts (ex dgs1100-mon.pl) need edit - change IP / SNMP community and ports count.

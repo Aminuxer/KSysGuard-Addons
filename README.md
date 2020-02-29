@@ -14,7 +14,7 @@ Download required opt-scripts to some path, ex. in /opt
 * !! Add at least one data sensor from added script to new tab.
   In other case ksysguard remove unused sources from right sensors panel !!
 * Some scripts (ex dgs1100-mon.pl) need edit - change IP / SNMP community and ports count.
-* Use sgrd-template for create grapth tab or create this manually.
+* Use sgrd-template for create graph tab or create this manually.
   If template has another hosts / interfaces names - your can easy change it,
   sgrd-files is trivial XML.
 
